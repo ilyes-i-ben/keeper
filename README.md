@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 ## Note:
-You find this Project Hosted in **Netlify** here:
+<span style="color: red;"> You find this Project Hosted in **Netlify** here </span>:
 <a href="https://flicks-keeper.netlify.app/"> Keeper App </a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
