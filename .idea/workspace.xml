@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fcbb3e75-1cff-43bb-ae91-e0dd4b12144e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/createArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/createArea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +27,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/elgou/Desktop/keeper&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Vsflick/FrontEnd/React/keeper",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -61,7 +65,24 @@
       <workItem from="1661869098051" duration="701000" />
       <workItem from="1661869816720" duration="886000" />
       <workItem from="1661871347348" duration="932000" />
-      <workItem from="1661981241110" duration="39000" />
+      <workItem from="1661981241110" duration="698000" />
+      <workItem from="1662204608280" duration="6013000" />
+      <workItem from="1662470340584" duration="84000" />
+      <workItem from="1663192720596" duration="597000" />
+      <workItem from="1667771015427" duration="337000" />
+      <workItem from="1668040042954" duration="657000" />
+      <workItem from="1669152272028" duration="30000" />
+      <workItem from="1669401279336" duration="335000" />
+      <workItem from="1671392135018" duration="60000" />
+      <workItem from="1671888143829" duration="184000" />
+      <workItem from="1671888383665" duration="70000" />
+      <workItem from="1671888490267" duration="13000" />
+      <workItem from="1674940644124" duration="151000" />
+      <workItem from="1674940992509" duration="94000" />
+      <workItem from="1676915893078" duration="721000" />
+      <workItem from="1677057491716" duration="605000" />
+      <workItem from="1677058560331" duration="16000" />
+      <workItem from="1677671729929" duration="230000" />
     </task>
     <servers />
   </component>

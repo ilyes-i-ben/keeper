@@ -34,6 +34,21 @@ footer {
   font-family: "McLaren", cursive;
 }
 
+.createArea{
+  text-align: center;
+}
+
+.clearAll{
+  height: 30px;
+  width: 80px;
+  background: #f5ba13;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
 footer p {
   color: #606060;
 }

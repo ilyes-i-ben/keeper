@@ -1,38 +1,38 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Note from "./components/Note";
 import CreateArea from "./components/createArea";
-import "https://kit.fontawesome.com/c38faef509.js";
-import './index.css';
+import "./index.css";
 
-function App(){
+function App() {
   const [notes, setNotes] = useState([]);
 
-  const addNote = (newNote) =>{
-    setNotes(prev => [...prev, newNote])
-  }
+  const addNote = (newNote) => {
+    setNotes((prev) => [...prev, newNote]);
+  };
 
-  const deleteNote = (indexToRemove) =>{
-    setNotes(prev => prev.filter((item, index) => indexToRemove !== index));
-  }
+  const deleteNote = (indexToRemove) => {
+    setNotes((prev) => prev.filter((item, index) => indexToRemove !== index));
+  };
+
+  const clearAll = () => setNotes([]);
 
   return (
-      <div>
-        <Header/>
-        <CreateArea
-            onAdd = {addNote}
+    <div>
+      <Header />
+      <CreateArea onAdd={addNote} notes={notes} onClear={clearAll} />
+      {notes.map((note, index) => (
+        <Note
+          key={index}
+          id={index}
+          title={note.title}
+          content={note.content}
+          onDelete={deleteNote}
         />
-        {notes.map((note, index) => <Note
-                key ={index}
-                id = {index}
-                title ={note.title}
-                content ={note.content}
-                onDelete = {deleteNote}
-            />
-        )}
-        <Footer/>
-      </div>
+      ))}
+      <Footer />
+    </div>
   );
 }
 
